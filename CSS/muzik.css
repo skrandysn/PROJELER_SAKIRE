@@ -7,20 +7,18 @@ p {
 }
 
 ul {
-    list-style-position: inside; /* Liste işaretlerini içeri yerleştir */
+  list-style-position: inside; /* Liste işaretlerini içeri yerleştir */
 }
 
-.vertical-list {
-    text-align: center;
-  }
+
   figcaption {
     text-align: center;
   }
 
-  
-  .tl-sign::before {
-    content: "₺"; /* Türk Lirası işareti Unicode kodu */
+  .vertical-list {
+    text-align: center;
   }
+  
 
   .fs-20{
     font-size:20px;
@@ -35,10 +33,31 @@ ul {
   }
   
   
+/*.color-blue.fw-normal{
+  color:blue; font-weight:normal;
+}
+  
+   li:first-child {
+      color:green
+  }
+   li:last-child {
+    color:aqua
+   }
+   li:nth-child(4){
+color:red
+   }
   
   
+  li:nth-child(odd) {
+    color:yellow
+  }
+
+  li:nth-child(even) {
+    background:green
+  }
   
   
-  
-  
-  
+  li:nth-child(3n+1) {
+    color:red
+  }
+  */
