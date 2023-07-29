@@ -25,3 +25,6 @@ figcaption {
 color:forestgreen;
 font-size:normal;
 }
+li:first-child {
+    color:red
+}
