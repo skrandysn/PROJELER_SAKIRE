@@ -21,3 +21,7 @@ figcaption {
     font-size:20px
 }
 
+.color-forestgreen.fw-normal {
+color:forestgreen;
+font-size:normal;
+}
