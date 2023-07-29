@@ -21,3 +21,19 @@ figcaption {
     font-size:20px
 }
 
+li:first-child {
+    color:rgb(59, 13, 119)
+    
+}
+
+li:last-child {
+    color:rgb(17, 143, 44)
+}
+
+li:nth-child(2) {
+    background:red;
+}
+.color-blue.fw-normal {
+    color:blue;
+    font-weight:normal
+}
