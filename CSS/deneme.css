@@ -1,6 +1,22 @@
 h1 {
-    text-align: center; /* Başlığı merkeze hizalayalım */
+    text-align: center; 
+     /* Başlığı merkeze hizalayalım */
 }
 body {
     background-color:darksalmon
+}
+
+p {
+    text-align: center; 
+}
+
+h2 {
+    color:rgb(212, 13, 6)
+}
+figcaption {
+    text-align: center; 
+}
+
+.fs-30 {
+    font-size:20px
 }
