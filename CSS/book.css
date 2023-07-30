@@ -26,5 +26,12 @@ color:forestgreen;
 font-size:normal;
 }
 li:first-child {
-    color:red
+    color:rgb(7, 177, 7)
+}
+li:last-child {
+    color:rgb(36, 4, 73)
+}
+
+li:nth-child(2) {
+    background:red
 }
