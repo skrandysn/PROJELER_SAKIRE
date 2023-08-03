@@ -13,6 +13,7 @@ p {
 h2 {
     color:rgb(212, 13, 6)
 }
+
 figcaption {
     text-align: center; 
 }
@@ -21,19 +22,7 @@ figcaption {
     font-size:20px
 }
 
-li:first-child {
-    color:rgb(59, 13, 119)
-    
-}
-
-li:last-child {
-    color:rgb(17, 143, 44)
-}
 
 li:nth-child(2) {
     background:red;
-}
-.color-blue.fw-normal {
-    color:blue;
-    font-weight:normal
 }
