@@ -10,7 +10,7 @@ p {
     text-align: center; 
 }
 
-h2 {
+h2{
     color:rgb(212, 13, 6)
 }
 
@@ -20,4 +20,11 @@ figcaption {
 
 .fs-30 {
     font-size:20px
+}
+
+/*   id:  #first-{color:cornflowerblue}   */
+
+/* ÖRNEK  #h1{color:rgb(199, 15, 9)} ÖRNEK */ 
+.text-red {
+    color:red
 }
