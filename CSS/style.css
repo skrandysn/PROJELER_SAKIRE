@@ -1,4 +1,4 @@
-ol{
+/*ol{
     margin-left: -40px;
     margin-top: -20px;
     list-style-position: inside;
@@ -27,6 +27,58 @@ li[value="4"] {
 
 *{
     text-align: center; 
-}
+}*/
+
+
 /* tüm elementleri seçmek istediğimizde
 " *{ text-align: center;} " kullanılır. */
+
+ /*#red {
+    color:red
+}
+
+#blue {
+    color:blue
+}
+
+#orange {
+    color:orange
+}
+
+#green {
+    color:green
+}
+#yellow {
+    color:yellow
+}
+.color-title {
+    font-weight: normal;
+}
+img {
+    height:200px;
+    width: 200px;
+}
+
+* {
+    background-color: #FFC6AC 
+}
+
+*/
+
+
+body {
+    background-color: antiquewhite
+}
+
+h1 {
+    
+    color: whitesmoke;
+    background-color: darkseagreen
+  
+}
+h2 {
+   
+    color:#FAF8F1 ;
+    background-color: #C58940
+  
+}
