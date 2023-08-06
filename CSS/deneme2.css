@@ -1,6 +1,10 @@
 #outer-box {
     background-color: purple;
 }
+
+
+
+
 .box {
     background-color: blue;
     padding:10px;
@@ -9,6 +13,8 @@
 .inner-box {
     background-color: red;
 }
+
+
 p {
     color:yellow;
     margin:0;
@@ -18,3 +24,4 @@ p {
 .white-text {
     color: white;
 }
+

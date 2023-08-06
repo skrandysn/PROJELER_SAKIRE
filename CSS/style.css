@@ -117,6 +117,7 @@ p {
     background-color: indianred;
     border: 10px solid black;
     margin-left: 40px;
+    border-radius: 50%;; /* kutuyu yuvarlak yapmak için kullanılır*/
     
    
 }
