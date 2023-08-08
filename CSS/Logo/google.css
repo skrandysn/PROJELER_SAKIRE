@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+}
+
+header {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.box1 {
+    float: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.box2 {
+    width: 36%;
+    height: 115px;
+    background-color: rgb(29, 255, 255);
+    text-align: center;
+    margin-top: 7px;
+    float: left;
+    
+}
+
+.box3 {
+    width: 18%;
+    height: 115px;
+    background-color: rgb(38, 211, 211);
+    float: left;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 7px;
+    
+}
+.box4 {
+    width: 45%;
+    height: 115px;
+    background-color: rgb(62, 187, 187);
+    float: left;
+    text-align: center;
+    font-size: small;
+    margin-top: 7px;
+}
+
+.text {
+    width: 330px;
+    height: 22px;
+}
