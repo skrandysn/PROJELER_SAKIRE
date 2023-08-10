@@ -72,7 +72,8 @@ body {
     background-color: antiquewhite
 }
 
-/*h1 {
+/* Hello Word paragrafını kutu içine alma;
+h1 {
     
     color: whitesmoke;
     background-color: darkseagreen
@@ -88,7 +89,7 @@ h2 {
 
 
 
-
+/* kare ve yuvarlak kutu oluşturup içinr paragraf yazma */
 div {
     height: 200px;
     width: 200px;
@@ -123,7 +124,7 @@ p {
 }
 
 
-
+/* kartpostal çalışması*/
 body {
     background-color: gray;
 }
