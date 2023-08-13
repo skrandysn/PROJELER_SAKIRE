@@ -40,11 +40,12 @@ footer {
 .enuzunsüre {
     color:midnightblue;
 }
-@media screen and (max-width:680px;) {
-.logo{
-width: 100px;
+@media screen and (max-width: 680px) {
+    .logo {
+    width: 100px;
+    }
 }
-}
+
 
 h1 {
     font-size: 3.5rem;
@@ -58,8 +59,8 @@ h1 {
 }
 
 .card img {
-margin-bottom: 10px;
-width: 100px;
-display: inline;
-object-fit: cover;
-}
+    margin-bottom: 10px;
+    width: 100px;
+    display: inline;
+    object-fit: cover;
+    }
