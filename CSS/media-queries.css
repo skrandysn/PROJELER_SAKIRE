@@ -37,9 +37,11 @@ footer {
 .right {
     float: right;
 }
+
 .enuzunsüre {
     color:midnightblue;
 }
+
 @media screen and (max-width: 680px) {
     .logo {
     width: 100px;
