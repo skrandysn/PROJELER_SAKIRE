@@ -1,0 +1,32 @@
+*{
+        margin: 0;
+        padding: 0;;
+}
+
+h1{
+        margin-bottom: 30px;
+}
+
+h2{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        m
+}
+.container{
+        background-color: aquamarine;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        padding:20px;
+}
+
+.div{
+        background-color: antiquewhite;
+        margin: 20px;
+        border: 10px solid rebeccapurple;
+        margin: 20px;
+}
+
+p{
+        margin-top: 100px;
+}
