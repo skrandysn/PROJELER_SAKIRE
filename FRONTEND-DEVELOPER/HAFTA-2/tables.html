@@ -4,9 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tables</title>
+        <style>
+                .hakan{
+                        background-color: rgb(105, 169, 186);
+                }
+                .ahmet{
+                        background-color: rgb(205, 81, 50);
+                }
+                .ayse{
+                        background-color: greenyellow;
+                }
+                .zehra{
+                        background-color: darkorange;
+                }
+                .serkan{
+                        background-color: blueviolet;
+                }
+                .fatıh{
+                        background-color: yellow;
+                }
+        </style>
 </head>
 <body>
-        <h1>Tables</h1>
+        <!-- <h1>Tables</h1>
         
 
         <table border="1">
@@ -28,7 +48,7 @@
                                 <td>Jason</td>
                                 <td>Software Engineer</td>
                                 <td>Full Stack Developer</td>
-                                <!-- <td>5 years</td> -->
+                                <td>5 years</td> 
                         </tr>
                         <tr>
                                 <td>Fred</td>
@@ -38,6 +58,79 @@
                         </tr>
                 </tbody>
              
+
+        </table>
+
+
+
+        <hr>
+        -->
+
+        <table border="10">
+                <strong>11-B SINIFIN 1. SINAV NOTLARI</strong>
+                <br>
+
+                <thead>
+                        <tr style="background-color: gray;">
+                                <th colspan="2">DERS</th>
+                                <th class="hakan">HAKAN</th>
+                                <th class="ahmet">AHMET</th>
+                                <th class="ayse">AYŞE</th>
+                                <th class="zehra">ZEHRA</th>
+                                <th class="serkan">SERKAN</th>
+                                <th class="fatıh">FATİH</th>
+                        </tr>
+         <tbody>
+                <tr>
+                        <td  style="background-color: yellowgreen;" colspan="2">MATEMETİK</td>
+                        <td class="hakan">80</td>
+                        <td class="ahmet"rowspan="2">95</td>
+                        <td class="ayse">75</td>
+                        <td class="zehra">65</td>
+                        <td class="serkan">45</td>
+                        <td class="fatıh">60</td>
+
+                </tr>
+                <tr>
+                        <td style="background-color: yellowgreen;" colspan="2">FİZİK</td>
+                        <td class="hakan">60</td>
+                        <td class="ayse">85</td>
+                        <td class="zehra">70</td>
+                        <td class="serkan">55</td>
+                        <td class="fatıh">60</td>
+                        <!-- <td>40</td> -->
+                </tr>
+                <tr>
+                        <td style="background-color: yellowgreen;" colspan="2">KİMYA</td>
+                        <td class="hakan">50</td>
+                        <td class="ahmet">90</td>
+                        <td class="ayse">85</td>
+                        <td class="zehra">75</td>
+                        <td class="serkan">70</td>
+                        <td class="fatıh" rowspan="2">50</td>
+                </tr>
+                <tr>
+                        <td style="background-color: yellowgreen;" colspan="2" >TARİH</td>
+                        <td class="hakan">60</td>
+                        <td class="ahmet">75</td>
+                        <td class="ayse" rowspan="2">60</td>
+                        <td class="zehra" >80</td>
+                        <td class="serkan">35</td>
+                        <!-- <td>65</td> -->
+                </tr>
+                <tr>
+                        <td style="background-color: yellowgreen;"  colspan="2">COĞRAFYA</td>
+                        <td class="hakan">55</td>
+                        <td class="ahmet">90</td>
+                        <td class="zehra">65</td>
+                        <td class="serkan">85</td>
+                        <td class="fatıh">60</td>
+                        <!-- <td>80</td> -->
+                </tr>
+         </tbody>
+
+
+                </thead>
 
         </table>
 </body>
