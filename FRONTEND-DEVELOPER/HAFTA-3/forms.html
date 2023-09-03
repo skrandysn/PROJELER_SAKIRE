@@ -4,10 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FORMS</title>
+        <style>
+                *{
+                        background-color:rgb(190, 249, 190);
+                        margin-bottom: 20px;
+                }
+
+                h1{
+                        color: coral;
+                }
+                h2{
+                        color:cornflowerblue;
+                }
+
+
+        </style>
 </head>
 <body>
 <h1> HTML Forms</h1>
-<h2>1.İnput</h2>
+<h2>1.İNPUT</h2>
         
         <!-----İNPUT (seçenek işaretlenmesini sağlayan form)------>
 
@@ -16,7 +31,7 @@
 
         <hr>
 
-<h2>2.Label </h2>
+<h2>2.LABEL </h2>
         <form action="/action_page.php">
                <label for="fname">First name:(label)</label><br>   
                <!--label (açıklama) ör:First name-->
@@ -28,7 +43,7 @@
         </form>
         <hr>
 
-<h2>3.Select</h2>
+<h2>3.SELECT</h2>
        <!-- SELECT (açılır listeyi tanımlar. Açılır menü içinden biri veye birkaçı seçilebilir.)-->
         <br>
         <label for="renk">En sevdiğiniz renk nedir?</label>
@@ -40,7 +55,7 @@
         </select> <br /> <br /> <br />
         <hr>
 
-<h2>4.Textarea</h2>
+<h2>4.TEXTAREA</h2>
         <!-- TEXTAREA:çok satırlı metin giriş alanları -->
         <br>
 
@@ -49,7 +64,7 @@
         <br /> <br /> <br />
         <hr>
 
-<h2>5.Button</h2>
+<h2>5.BUTTON</h2>
         <!-- BUTTON: tıklanabilir bir düğmeyi tanımlar -->
         <br>
         <button type="button">Tıkla</button>
@@ -58,7 +73,7 @@
         <button type="submit">Gönder</button>
         </form> <br /> <br /> <br />
         <hr>
-<h2>6-7.Fieldset and Legend</h2>
+<h2>6-7.--FİELDSET AND LEGEND</h2>
         <!--FİELDSET: ilgili verileri bir formda gruplamak için kullanılır.(kutu)  -->
 
         <!--LEGEND: grupları açıklamak veya başlıklandırmak için kullanılır.  -->
@@ -75,7 +90,7 @@
                 </fieldset>
               </form> <br /> <br /> <br />
               <hr>
-<h2>8.Datalist</h2>
+<h2>8.DATALİST</h2>
 
               <!--DATALİST:Bir öğe için önceden tanımlanmış seçeneklerin bir listesini belirtir.  --> <br>
              
@@ -96,7 +111,7 @@
         <p><b>Note:</b> The datalist tag is not supported in Safari prior version 12.1.</p> <br> <br> <br>
         <hr>
 
-<h2>9.Output</h2>
+<h2>9.OUTPUT</h2>
 
 
         <!--OUTPUT: bir hesaplamanın sonucunu temsil eder---->
@@ -114,7 +129,7 @@
         <input type="submit">
         </form> <br> <br> <br>
         <hr>
-<h2>10.Option</h2>
+<h2>10.OPTİON</h2>
 
         <!--OPTİON:seçim listesindeki bir seçeneği tanımlar. -->
 
@@ -129,11 +144,11 @@
         </select> <br> <br> <br>
         <hr>
 
-<h2>11.Optgroup</h2>
+<h2>11.--OPTGROUP</h2>
 
         <!--OPTGROUP: <select> içinde uzun seçenek listelerini gruplandırma için kullanılır--->
         <br> <br>
-        
+
         <label for="cars">Choose a car:</label>
         <select  name="cars" id="cars">
           <optgroup label="Swedish Cars">
