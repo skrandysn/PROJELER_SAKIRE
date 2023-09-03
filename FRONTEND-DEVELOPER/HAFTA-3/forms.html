@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMS</title>
+</head>
+<body>
+<h1> HTML Forms</h1>
+<h2>1.İnput</h2>
+        
+        <!-----İNPUT (seçenek işaretlenmesini sağlayan form)------>
+
+        <input type="radio" name="cinsiyet" value="erkek"> Erkek
+        <input type="radio" name="cinsiyet" value="kadın"> Kadın <br /> <br /> <br />
+
+        <hr>
+
+<h2>2.Label </h2>
+        <form action="/action_page.php">
+               <label for="fname">First name:(label)</label><br>   
+               <!--label (açıklama) ör:First name-->
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+
+        </form>
+        <hr>
+
+<h2>3.Select</h2>
+       <!-- SELECT (açılır listeyi tanımlar. Açılır menü içinden biri veye birkaçı seçilebilir.)-->
+        <br>
+        <label for="renk">En sevdiğiniz renk nedir?</label>
+        <select id="renk" name="renk">
+          <option value="kirmizi">Kırmızı</option>
+          <option value="mavi">Mavi</option>
+          <option value="yesil">Yeşil</option>
+          <option value="sari">Sarı</option>
+        </select> <br /> <br /> <br />
+        <hr>
+
+<h2>4.Textarea</h2>
+        <!-- TEXTAREA:çok satırlı metin giriş alanları -->
+        <br>
+
+        <label for="yorum">Yorumunuz:</label>
+        <textarea id="yorum" name="yorum" rows="4" cols="50"></textarea>
+        <br /> <br /> <br />
+        <hr>
+
+<h2>5.Button</h2>
+        <!-- BUTTON: tıklanabilir bir düğmeyi tanımlar -->
+        <br>
+        <button type="button">Tıkla</button>
+        <form action="islem.php" method="post">
+               
+        <button type="submit">Gönder</button>
+        </form> <br /> <br /> <br />
+        <hr>
+<h2>6-7.Fieldset and Legend</h2>
+        <!--FİELDSET: ilgili verileri bir formda gruplamak için kullanılır.(kutu)  -->
+
+        <!--LEGEND: grupları açıklamak veya başlıklandırmak için kullanılır.  -->
+        <br>
+
+        <form action="/action_page.php">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname" value="John"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form> <br /> <br /> <br />
+              <hr>
+<h2>8.Datalist</h2>
+
+              <!--DATALİST:Bir öğe için önceden tanımlanmış seçeneklerin bir listesini belirtir.  --> <br>
+             
+         <p>The datalist element specifies a list of pre-defined options for an input element.</p>
+
+        <form action="/action_page.php">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+        </datalist>
+        <input type="submit">
+        </form>
+
+        <p><b>Note:</b> The datalist tag is not supported in Safari prior version 12.1.</p> <br> <br> <br>
+        <hr>
+
+<h2>9.Output</h2>
+
+
+        <!--OUTPUT: bir hesaplamanın sonucunu temsil eder---->
+
+        <br>
+        <form action="/action_page.php"
+        oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+         0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+        </form> <br> <br> <br>
+        <hr>
+<h2>10.Option</h2>
+
+        <!--OPTİON:seçim listesindeki bir seçeneği tanımlar. -->
+
+
+        <label for="cars">Choose a car:</label>
+
+        <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+        </select> <br> <br> <br>
+        <hr>
+
+<h2>11.Optgroup</h2>
+
+        <!--OPTGROUP: <select> içinde uzun seçenek listelerini gruplandırma için kullanılır--->
+        <br> <br>
+        
+        <label for="cars">Choose a car:</label>
+        <select  name="cars" id="cars">
+          <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup>
+        </select>  
+
+
+
+        
+</body>
+</html>
