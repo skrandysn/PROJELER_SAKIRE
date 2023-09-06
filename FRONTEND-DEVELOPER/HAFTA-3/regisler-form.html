@@ -10,46 +10,62 @@
         <h1>REGISTER FORM</h1>
       
       <form action="">
-        <div>
+        <div class="input-div">
                 <label for="firstname">Fırst Name</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" required> 
+                <input
+                class="inputs" 
+                type="text" id="firstname" name="firstname" placeholder="Your First Name" required> 
         </div>
-       <div>
+       <div class="input-div">
                 <label for="secondname">Second Name</label>
-                <input type="text" id="secondname" name="secondname" placeholder="Your Second Name" required>
+                <input
+                class="inputs"
+                 type="text" id="secondname" name="secondname" placeholder="Your Second Name" required>
         </div>
 
-        <div>
+        <div class="input-div">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="secondname" placeholder="Your Email" required>
+                <input
+                class="inputs"
+                 type="email" id="email" name="secondname" placeholder="Your Email" required>
         </div>
 
-        <div>
+        <div class="input-div">
                 <label for="password">Password</label>
-                 <input type="password" id="password" name="password" placeholder="Your Password" required>
+                 <input
+                 class="inputs"
+                  type="password" id="password" name="password" placeholder="Your Password" required>
         </div>
-        <div>
+        <div class="input-div">
                 <label for="dob">Day of Birth</label>
-                 <input type="date" id="dob" name="dob"     min="2020-01-01" max="2024-01-01" placeholder="Your Birthday" required>
+                 <input
+                 class="inputs"
+                  type="date" id="dob" name="dob"     min="2020-01-01" max="2024-01-01" placeholder="Your Birthday" required>
         </div>
-        <div>
+        <div class="input-div">
                 <label for="phone">Phone</label>
-                 <input type="tel" id="phone" name="phone"     placeholder="Your Phone Number" required>
+                 <input
+                 class="inputs"
+                 type="tel" id="phone" name="phone"     placeholder="Your Phone Number" required>
         </div>
-        <div>
+        <div class="input-div">
                 <label for="address">Address</label>
-                 <textarea name="address" id="address" cols="20" rows="5" placeholder="Your Address"></textarea>
+                 <textarea
+                 class="inputs"
+                 name="address" id="address" cols="20" rows="5" placeholder="Your Address"></textarea>
         </div>
-        <div>
+        <div class="input-div">
                 <label for="country">Country</label>
-                 <select name="country" id="country">
+                 <select
+                 class="inputs"
+                        name="country" id="country">
                         <option value="">Select Country</option>
                         <option value="Türkiye">Türkiye</option>
                         <option value="Fransa">Fransa</option>
                         <option value="Almanya">Almanya</option>
                 </select>
         </div>
-      <div>
+      <div class="input-div">
         <label for="gender">Gender</label>
 <div class="gender-div">
         <input type="radio" name="gender">
@@ -60,7 +76,7 @@
         
         </div>
 
-        <div>
+        <div class="input-div">
                 <label for="">Languages</label>
                 <div class="lang-div">
                 <input type="checkbox" name="language">
@@ -72,7 +88,7 @@
 
         </div>
 
-        <div>
+        <div class="btn-container">
                 <input type="submit" value="save">
                 <input type="reset" value="clear" name="" id="">
         </div>

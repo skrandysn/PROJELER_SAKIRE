@@ -7,7 +7,10 @@
 
 body{
         font-family: Arial, Helvetica, sans-serif;
-
+        background-image: url(https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_1280.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+        
 }
 h1{
         text-align: center;
@@ -15,7 +18,9 @@ h1{
 }
 
 form{
-        background-color: blanchedalmond;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  
         width: fit-content;
         margin: 20px auto;
         padding: 30px;
@@ -39,5 +44,61 @@ form{
         margin-right: 10px;
 
       }
+      .inputs{
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0,0.3);
+      }
+      .btn-container{
+        /* border: 2px solid red; */
+        text-align: center;
+      }
+
+      .btn-container input{
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(247, 3, 230, 0.9);
+        padding: 10px;
+      }
+
+      .btn-container input:hover{
+        cursor: pointer;
+        background-color: rgba(247, 3, 230, 0.5);
+        color:white;
+        font-weight: 700;
+      }
+
+      .input-div{
+        margin-bottom: 20px;
+      }
+
+      /*! vertical-align bir html elementini dikey olarak hizalamak icin kullanilabilir. 
+/*! Ancak elementin inline veya inline-block olmasi gerekir. 
+/*! Bir block elementi vertical-align ile hizalayamayiz.
+/*! Buradaki goruntude Adress label'nin ortalanmasini bozan textarea elemaniydi.
+/*! O yuzden textarea elemanini dikey olarak ortalayarak sorunu cozukebiliriz.
+/*! textarea inline-block bir element oldugu icin vertical ile dikey hizalanabilir.*/
+
+/*? vertical align ile ilgili ayrintili bilgi icin */
+/*! https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align#:~:text=The%20vertical%2Dalign%20property%20can,a%20cell%20in%20a%20table. */
+
+textarea {
+  /*? textarea'nin dikey olarak ortalanmasini sagladik  */
+  vertical-align: middle;
+  /*? textarea'nin alanini buyultulebilmesini engelledik */
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
 
       
