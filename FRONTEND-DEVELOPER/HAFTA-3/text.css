@@ -1,0 +1,121 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html{
+        /* default font-size: 16px */
+        font-size: 16px;
+        /* default font-size:20px */
+        
+}
+
+h1 {
+      /*? default font-size: her zaman HTML*2  */
+        color: red; 
+        /* font-size:50px */
+
+}  
+
+p.first{
+        font-size:30px;
+}
+        
+/********* UNITS  ********/
+
+P.abs{
+        font-size:20px;
+        /* font-size: 1cm; */
+}
+ p.percent{
+        /* (16px)default font-size ın 2 katı yani 32px olur */
+        font-size: 200%;  
+ }
+
+ /* EM ölçü biriminde bir html elemanının font size parent'in font-size'ına göre oranlanır.*/
+
+ .div1{
+        font-size: 1em;
+ }
+
+ .div2{
+        font-size: 2em;
+ }
+
+ .div3{
+        font-size: 3em;
+ }
+
+ .div4{
+        font-size: 1rem;
+        /* 16 px * 1= 16px */
+ }
+
+ .div5{
+        font-size: 2rem;
+        /* 16 px * 2= 32px */
+ }
+
+ .div6{
+        font-size: 3rem;
+         /* 16 px * 3= 48px */
+ }
+
+
+ /****** TEXT-STYLE ********/
+ p.text-style{
+        font-style: italic; /**normal-oblique-italic**/
+        text-align: center; /** center-justify-left-right**/
+        font-weight: 900; /* font-weight: bold; */
+        font-variant: small-caps; /** bütün harfleri büyük yapar**/
+
+ }
+
+ p.text-style span.elit{
+        color: red;
+
+        /* decoration*/
+
+        text-decoration: line-through; /** kelimenin üzerini çizer**/
+        text-decoration: overline; /** üzerini çizer**/
+        text-decoration: underline; /** altı çizgili **/
+        text-decoration: none; /** çizgi(hiçbir şey) yok**/
+
+ }
+
+ div.transform{
+        font-size: 1.2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: capitalize; /** tüm kelimelerin ilk harfini büyük yapar**/
+        text-transform: uppercase; /** kelimelerin bütün harfini büyük yapar**/
+        text-transform: lowercase; /** bütün harfler küçük yazar**/
+ }
+
+/******* İNDENT *******/
+
+ div.transform p.indent{
+        text-indent: 30px;
+ }
+
+ div.transform p.space {
+        line-height: 1.5; /** satır yüksekliği**/
+        word-spacing: 1rem;/** kelimeler arası boşluk**/
+        letter-spacing: 10px; /** harfler arası boşluk **/
+       
+
+ }
+
+ div.transform p.direc {
+        direction: rtl; /** yazım yönü **/
+ }
+
+ .shadow{
+        padding: 1rem;
+        margin: 2rem;
+        box-shadow: 3px 5px 10px red;
+ }
+
+ .shadow h2{
+        text-shadow: 3px 5px 10px blue;
+ }

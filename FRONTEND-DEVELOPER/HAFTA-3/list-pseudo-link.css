@@ -1,0 +1,70 @@
+*{
+        margin: 0;
+        /* padding: 0; */
+}
+
+/******* LIST *******/
+
+.language{
+        list-style-type:square; /** square-disc-ermenian liste başı karakterleri**/
+        /* list-style-position: inside; */
+        list-style-image: url(./img2/house-solid.svg) ;
+}
+
+.awesome {
+        color: red;
+        font-size: 1rem;
+}
+
+/***  Pseudo Classes**/
+
+/** elementlerimizin özel durumlarını belirleyen seçicilerdir**/
+
+
+ul.pseudo li{
+        list-style-type: none;
+        background-color: antiquewhite;
+        border: 1px solid gray;
+        width: 10rem;
+}
+
+ul.pseudo li:first-child{
+        background-color: rebeccapurple;
+        color: white;
+}
+
+ul.pseudo li:last-child{
+        background-color: red;
+        color: white;
+}
+
+ul.pseudo li:nth-child(3){
+        background-color: black;
+        color: white;
+
+}
+
+ul.pseudo li:nth-child(even){
+        background-color: yellow;
+}
+
+/* ul.pseudo li:hover{
+        cursor: pointer;
+        opacity: 0.5;
+} */
+
+ul.pseudo li:active{
+        font-weight: 900;
+}
+
+ul.pseudo li::first-letter{
+        font-size: 2rem;
+}
+
+ul.pseudo li::before{
+        content:"👍";
+}
+
+ul.pseudo li::after{
+        content: "❤";
+}
