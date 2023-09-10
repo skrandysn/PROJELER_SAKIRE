@@ -6,9 +6,10 @@
 /******* LIST *******/
 
 .language{
-        list-style-type:square; /** square-disc-ermenian liste başı karakterleri**/
+        list-style-type:square; /* square-disc-ermenian liste başı karakterleri*
         /* list-style-position: inside; */
         list-style-image: url(./img2/house-solid.svg) ;
+        /* list-style-image: linear-gradient(red, blue); */
 }
 
 .awesome {
@@ -28,43 +29,55 @@ ul.pseudo li{
         width: 10rem;
 }
 
+
+/* first-child: listenin 1. elemanı  👇*/ 
 ul.pseudo li:first-child{
         background-color: rebeccapurple;
         color: white;
 }
 
+/* last-child: listenin son elemanı  👇   */
 ul.pseudo li:last-child{
         background-color: red;
         color: white;
 }
 
+/* nth-child (3): listenin 3. elemanı demek   👇*/
 ul.pseudo li:nth-child(3){
         background-color: black;
         color: white;
 
 }
 
-ul.pseudo li:nth-child(even){
+/*nth-child(even):listenin çift sayılı sıradaki olanlar (listenin 2-4-6 sıradakiler)
+nth-child(odd): listenin tek sayılı sıradaki olanalar demek  👇*/
+        ul.pseudo li:nth-child(even){
         background-color: yellow;
 }
 
-/* ul.pseudo li:hover{
+/* listenin üzerine geldiğinde tıklayan parmak işareti çıkar  👇*/
+ul.pseudo li:hover{
         cursor: pointer;
         opacity: 0.5;
-} */
+}
 
+/* yazı puntosu active durumunda 900 olur  👇*/
 ul.pseudo li:active{
         font-weight: 900;
 }
 
+/*first-letter: liste içindeki kelimelerin ilk harfi büyük olur 👇 */
 ul.pseudo li::first-letter{
         font-size: 2rem;
 }
 
+/* li::before; listenin başına emoji ekler  👇 */
 ul.pseudo li::before{
-        content:"👍";
+        content:"🦾";
 }
 
+/* li::before; listenin sonuna emoji ekler   👇*/
 ul.pseudo li::after{
         content: "❤🧡💘";
+      
 }

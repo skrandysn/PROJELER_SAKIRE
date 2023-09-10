@@ -22,9 +22,10 @@ p.first{
         font-size:30px;
 }
         
-/********* UNITS  ********/
+/********* UNITS (ölçü birirmi)  ********/
+/*! Mutlak ölçü birimleri: px, mm, cm, m, inch em, rem, % **/
 
-P.abs{
+p.abs{
         font-size:20px;
         /* font-size: 1cm; */
 }
@@ -117,5 +118,5 @@ P.abs{
  }
 
  .shadow h2{
-        text-shadow: 3px 5px 10px blue;
+        text-shadow: 2px 1px 7px blue;
  }
