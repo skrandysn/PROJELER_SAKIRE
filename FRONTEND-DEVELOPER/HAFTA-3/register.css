@@ -86,7 +86,7 @@ form{
 
 textarea {
   /*? textarea'nin dikey olarak ortalanmasini sagladik  */
-  vertical-align: middle;
+  vertical-align:middle;
   /*? textarea'nin alanini buyultulebilmesini engelledik */
   resize: none;
 }
