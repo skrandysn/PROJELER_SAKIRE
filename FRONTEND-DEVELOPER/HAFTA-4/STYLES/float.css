@@ -1,0 +1,39 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.img-float{
+        width: 60%;
+        float:left;
+}
+
+.par1{
+        border: 1px solid red;
+}
+
+.clearfix{
+        clear: both;
+       
+}
+
+.box{
+        float: left;
+         width: 20%;
+}
+
+.box1{
+       background-color: tomato; 
+      /* float: left; */
+}
+
+.box2{
+        background-color:aqua;
+        /* float: left; */
+}
+
+.box3{
+        background-color:magenta;
+       /* float: left; */
+}
+
