@@ -1,0 +1,21 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* sabitleme
+fixed" pozisyonu genellikle kullanıcıya her zaman erişilebilecek bir araç sağlamak için kullanılır. Örneğin, bir web sitesinde gezinme menüsünü en üstte sabit tutmak isteyebilirsiniz. Kullanıcı sayfayı kaydırdıkça, bu menü ekranın üstünde sabit kalır. */
+.fixed{
+        background-color: chartreuse;
+        position: fixed;
+        left: 0.5rem;
+        bottom: 15rem;
+}
+/* "sticky" pozisyonu, genellikle bir element belirli bir ekrana geldiğinde sabitlenmesi gerektiğinde kullanılır. Bu özellik, kullanıcı sayfayı aşağı veya yukarı kaydırdığında bu elementin sabit kalmasını sağlar */
+.sticky{
+        background-color: yellow ;
+        position: sticky;
+        top: 1rem;
+        bottom: 20px;
+}
