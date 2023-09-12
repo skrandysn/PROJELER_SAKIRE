@@ -3,56 +3,105 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Google Anasayfa</title>
+        <title>Google Page</title>
         <link rel="stylesheet" href="google.css">
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
 <body>
-        <nav>
-                <div class="div1">
-                        <a href="https://about.google/">About</a>
-                        <a href="https://store.google.com/regionpicker?pli=1">Store</a>
-
-                        <div class="div2">
-                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" >Gmail</a> 
-
-                        <a href="https://www.google.com.tr/imghp?hl=tr&ogbl" target="_blank">Görseller</a>
-
-                        <a href="https://www.google.com.tr/?hl=tr">
-                                <img src="./img/icon-menu.jpg"  alt="" width="40" height="40" >
-                        </a>
-                       <a href="">
-                        <button>Sign in</button>
-                       </a>
+        <header class="header">
+                <div class="header__left">
+                  <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Store</a></li>
+                  </ul>      
                 </div>
+                <div class="header__right">
+                    <ul>
+                        <li><a href="">Gmail</a></li>
+                        <li><a href="">Images</a></li>
+                        <li class="header__right--appicon"><img src="./img/appicon.png" alt=""></li>
+                        <li ><button class="header__right--button">Sign in</button></li>
+                    </ul>   
                 </div>
-        </nav>
-        <section>
-                <div class="logo">
-                        <img src="./img/googlelogo.png" alt="google">
+        </header>
+        <main class="main">
+               
+                       <img src="./img/googlelogo.png" alt="" class="main__logo">
+                <div class="main__searchbar">
+                        <!--1MAGNIFIER-->
+
+                     <img width="30px" src="./img/magnifying_glass.jpg" alt="" class="main__searchbar--magnifier">
+                     
+                     <!-- 2-INPUT -->
+
+                     <input type="search"
+                     class="main__searchbar--input">
+                     <!-- 3 MICROPHONE -->
+
+                     <img class="main__searchbar--mic" width="10px" src="./img/google_microphone.png" alt="">
                 </div>
-                <div class="arama">
-                        <input class="s-input" type="text" title="ara">
-                        <img class="mikrofon" src="./img/google_microphone.png" alt="" height="20" width="20">
 
-                        <img class="search-icon" src="./img/Magnifying_glass_icon.png" alt="">
+                <div class="main__button">
+                        <button
+                        class="main__buttons--left">Google Search</button>
+                        <button class="maim__buttons--right">I'm Feeling Lucky
+
+                        </button>
+        </div>
+        <div class="main__lang">
+                <p>Other Languages you can use Google: <a href=""></a>English</p>
+        </div>
+        </main>
+
+        <footer class="footer">
+                <div class="footer__top">Türkiye</div>
+                <div class="footer__bottom">
+                   <ul>
+                        <li><a href="">Advertising</a></li>
+                        <li><a href="">Busiines</a></li>
+                        <li><a href="">How Search</a></li>
+                   </ul>  
+                   <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Settings</a></li>
+                   </ul>   
                 </div>
-
-                <div style="text-align: center;"
-                class="buttons">
-                        <a href=""
-                        ><button class="googlesearch">Google Search</button></a>
-                        
-                        <a href=""
-                        ><button  class="feelinglucky">I'm Feeling Lucky</button></a>
-                    </div>
-
-                    <p style="text-align: center;">Other Languanges you use Google:
-                        <a href="https://en.wikipedia.org/wiki/English_language">English</a>
-
-        <footer>
-                
         </footer>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
 </body>
-</html>
+</html> 

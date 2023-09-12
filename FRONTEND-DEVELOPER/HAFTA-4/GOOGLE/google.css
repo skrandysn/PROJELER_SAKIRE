@@ -1,97 +1,109 @@
-/* *{
-        width: 0;
-        padding: 0;
-       box-sizing: border-box;
-} */
-
-.div1{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        text-decoration: none solid rgb(32, 33, 36);
-        background-color: #ffffff;
-        color: #202124;
-        height: 155.2px;
-        width: 1536px;
-        padding: 20px 20px 20px 20px;
-        display: block;
-        transform: none;
-        transition: all 0s ease 0s;
-        box-sizing: border-box;
-}
-.div2{
-     display: inline-block;
-     float: right;
-     vertical-align: middle;
-     
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  /* link altındaki çizgileri siler */
+  
 }
 
-.logo {
-        margin: 108px auto 30px;
-        text-align: center;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
-    }
+/***--- HEADER---***/
 
-    .s-input{
-               display: block;
-                border: 1px solid #ddd;
-                color: rgba(0, 0, 0, 0.87);
-                font-size: 16px;
-                padding: 13px;
-                padding-left: 45px;
-                border-radius: 25px;
-                width:  100%;
-                outline: none;
-            
-    }
+header{
+    padding: 20px;
+}
 
-    .arama{
-        width: 580px;
-        margin: 0px auto;
-        position: relative;
-        margin-top: -8px;
-        text-align: center;
-
-    }
-
+ul li{
+    display: inline-block;
     
+}
 
-    .mikrofon{
-        width: 20px;
-        opacity: 0.4;
-        position: absolute;
-        top: 13px;
-        right:  14px;
-    }
+ul li a{
+    color: black;
+    padding: 0.5rem;
+    
+}
 
-    .search-icon{
-        width: 18px;
-        position: absolute;
-        top: 13px;
-        left: 35px;
-    }
+ul li a:hover{
+     text-decoration: underline; /*linklerin altını çizer */
+}
+.header__left{
+    float: left;
+    line-height: 36px; /* hepsinin ortasından çizgi çekiyor*/
+}
 
-    .googlesearch {
-        margin: 25px 4px;
-        padding: 0 16px;
-        height:  36px;
-        line-height:  27px;
-        min-width:  54px;
-        cursor: pointer;
-        user-select: none;
-        border: 5px solid #f2f2f2;
-        color: #5f6368;
-        font-size:  14px;
-    }
+.header__right{
+    float: right;
+}
 
-    .feelinglucky {
-        margin: 25px 4px;
-        padding: 0 16px;
-        height: 36px;
-        line-height: 27px;
-        min-width: 54px;
-        cursor: pointer;
-        user-select: none;
-        border: 5px solid #f2f2f2;
-        color:  #5f6368;
-        font-size: 14px;
-    }
+
+.header__right--appicon{
+    opacity: 0.5;
+    vertical-align: middle; /* appicon u ortalar*/
+}
+.header__right--appicon:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.header__right--button{
+    background-color: #4285F4;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* -----MAİN----- */
+
+main{
+    margin-top: 200px;
+  text-align: center;
+ 
+  }
+
+.main__logo{
+     height: 92px;
+     width: 272px;
+}
+
+.main__searchbar{
+    border: 1px solid #D3D3D3;
+    height: 38px;
+    width: 460px;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding-top: 3px;
+
+}
+
+.main__searchbar:hover{
+   box-shadow: rgb(211, 211, 211) 3px 3px 5px;
+}
+
+.main__searchbar--magnifier{
+    width: 30px;
+    height: 30px;
+}
+.main__searchbar--input{
+    height: 25px;
+    width: 350px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.main__serachbar--mic{
+    height: 20px;
+    width: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+}
