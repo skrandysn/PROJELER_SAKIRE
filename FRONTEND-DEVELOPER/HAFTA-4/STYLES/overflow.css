@@ -4,10 +4,34 @@
         box-sizing: border-box;
 }
 
-.box{
+.box {
         border: 1px solid red;
         margin-bottom:  1rem;
+        width: 25rem;
+        height: 8rem;
+}
+.box1{
+        background-color: aquamarine;
+        overflow:scroll;
 }
 
+.box2{
+        background-color: chartreuse;
+        overflow:auto ;
+}
 
+.box3{
+        background-color: palevioletred;
+        overflow:hidden ;
+}
 
+.box4{
+        background-color: chocolate;
+        overflow:visible ;
+}
+
+/* .par1{
+        width: 30rem;
+} */
+
+/*  Yazı metin ve fotoğrafların belli bir width height değerine göre içerisine gömülebiliniyor*/
