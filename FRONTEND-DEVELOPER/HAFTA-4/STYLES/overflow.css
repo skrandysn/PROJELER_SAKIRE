@@ -17,17 +17,17 @@
 
 .box2{
         background-color: chartreuse;
-        overflow:auto ;
+        overflow: auto ;
 }
 
 .box3{
         background-color: palevioletred;
-        overflow:hidden ;
+        overflow:auto ;
 }
 
 .box4{
         background-color: chocolate;
-        overflow:visible ;
+        overflow:auto ;
 }
 
 /* .par1{

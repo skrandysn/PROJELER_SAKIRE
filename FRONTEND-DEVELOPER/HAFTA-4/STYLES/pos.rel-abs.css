@@ -25,10 +25,14 @@ body{
 .box1{
         background-color: aqua;
         position: absolute;
-        top: 1rem;
+        top: 5rem; 
         left: 2rem;
+      
 }
 
 .box2{
-        background-color:chocolate
+        background-color:chocolate;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
 }

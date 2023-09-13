@@ -91,6 +91,7 @@ main{
 .main__searchbar--magnifier{
     width: 30px;
     height: 30px;
+    vertical-align: middle;
 }
 .main__searchbar--input{
     height: 25px;
