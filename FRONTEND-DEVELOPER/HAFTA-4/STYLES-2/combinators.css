@@ -1,0 +1,70 @@
+  /* COMBİNATORS */
+
+
+/* 1.Descendent Selector( boşluk ile temsil eder ): (div p ): div içerisindeki p leri alır.
+/* 2.Child Selector(>): (div > p): div perıntı içindeki  p leri alır*/
+
+/* 3.General sibling selector(+): (div + p) div den sonra gelen  ilk p alır*/
+
+/* 4.Tilda selector:(~): (div ~ p)  divden sonra gelen tüm p leri seçer*/
+
+
+*{
+        margin: 0.5;
+}
+
+/*descendent Selector*/
+.box h1{
+        color: red;
+        /* box clası içindeki tüm h1 leri seçer*/
+}
+
+/**Child Selector*/
+
+.box > p{
+        color:blue;
+        /* perıntı box clası olan tüm p leri seçer*/
+}
+
+section > p{
+        color: magenta;
+}
+
+/** General sibling selector*/
+
+.box + p{
+        color: yellow;
+        background-color: black;
+        /* box elementi kapandıktan sonraki ilk p elementi seçer*/
+}
+
+/* tilda selector */
+.box ~ p{
+        background-color:blue;
+        /* box clasından sonra tüm p leri seçer*/
+}
+
+.box ~ .p1{
+        background-color: chartreuse;
+}
+
+/*p1 claslı elementten sonra gelen h1 demek*/
+.p1 + h1{
+        /* outline: 2px solid red; */
+        font-size: 1rem;
+        width: 8rem;
+        height: 8rem;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 50%;
+        padding-top: 3rem;
+}
+
+.p1 + h1:hover{
+        outline: 5px dotted red;
+        /*dashed yerine solid-dotted kullanılır*/
+        outline-offset: 10px;
+        /* outline ile border arasında değer veriyor */
+
+
+}

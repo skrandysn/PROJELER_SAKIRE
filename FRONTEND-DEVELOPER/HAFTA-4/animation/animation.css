@@ -1,0 +1,22 @@
+.outer{
+        background-color: brown;
+        width: 500px;
+        height: 500px;
+}
+
+.inner{
+        background-color: green;
+        width: 50%;
+        height: 50%;
+        animation-name: travel;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+        animation-delay: 1s;
+}
+
+@keyframes travel{
+        0% {transform: translateX(0);}
+        25% {transform: translateY(100%);}
+       50% {transform: translate(100%,100%);}
+        100%{transform: translateX(100%);}
+}

@@ -1,0 +1,104 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+.yazi{
+        text-align: center;
+        margin: 2rem auto;
+        font-size: 2rem;
+        width: 50vw;
+}
+
+.yazi1{
+        background-color: cadetblue;
+        transform: rotateX(180deg);
+        /* ******** TRANSFORM-ROTATE ************ */
+/* rotate içinde ... degree (deg) olarak değer verilir */
+/* 90 ve 270 deerelecelerde yazılar tam dik olduklarından ve 
+    3 boyutlu olarak bakamadığımız için gözükmezler */
+}
+
+.yazi2{
+        background-color: chocolate;
+        transform: rotateY(180deg);
+}
+
+.yazi3{
+        background-color: chartreuse;
+        transform: rotate(-30deg);
+        transform-origin: left center;
+}
+
+     /*TRANSFORM-SCALE**/
+/* scale boyutlandırma için kullanılır.*/
+
+.yazi4{
+        background-color: crimson;
+        transform: scaleX(2);
+
+}
+
+.yazi5{
+        background-color: blue;
+        transform: scaleY(2);
+}
+.yazi6{
+        background-color: darkmagenta;
+        /* transform: scale(2); */
+}
+
+.yazi6:hover{
+        transform: scale(2) rotate(60deg);
+        /*hem büyür hem de döner*/
+        
+}
+
+/* ************* -TRANSFORM- TRANSLATE ********* */
+/* Translate öteleme,hareket ettirmek için kullanılır. */
+
+.box{
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 50px;
+        font-weight: 800;
+}
+
+.X{
+        transform: translate(100px);
+}
+
+.Y{
+        transform:translateY(150px) ;
+}
+
+.XY{
+        transform: translate(50px, 40px);
+}
+
+.XY:active{
+        transform: translate(-50px, -100px);
+}
+
+.btn-div{
+        text-align: center;
+}
+
+.btn{
+        background-color: blue;
+        border: 2pz solid gray;
+        padding: 20px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        transition: background-color 3s linear 1s, color 1s, border-radius 2s;
+}
+
+.btn:hover{
+        background-color: red;
+        width: 200px;
+        color: white;
+        border-radius: 25px ;
+}
+
