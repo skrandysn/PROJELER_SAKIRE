@@ -1,0 +1,24 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+header{
+        position: relative;
+}
+
+header img{
+        height: 50vh;
+        width: 100vw;
+}
+
+
+header div img{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        bottom: 50%;
+        left:  30%;
+}
+
