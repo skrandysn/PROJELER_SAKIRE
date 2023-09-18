@@ -56,6 +56,7 @@ nav a{
         font-size: 18px;
         text-decoration: none; /*alt çizgiyi kaldırır */
         cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -102,7 +103,8 @@ h2{
   /****FOOTER******/
 
   footer{
-        background-color:rgb(171, 163, 163) ;        
+        background-color:rgb(171, 163, 163) ; 
+        padding: 10px;       
 }
 
 
@@ -110,10 +112,16 @@ h2{
 {
         display: flex;
         justify-content: space-between;
-       
-      
 }
 
 .footer a {
-        margin: 20px;      
+        margin: 20px;   
+        text-decoration: none; 
+        font-size: 18px;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer h3{
+        letter-spacing:3px ;
+        margin-left: 20px;
+        margin-top: 10px;
 }
