@@ -102,22 +102,18 @@ h2{
   /****FOOTER******/
 
   footer{
-        background-color:rgb(171, 163, 163) ;
-        
-  }
-.footer{
-        /* background-color: rgb(117, 117, 232) ; */
-        display: flex;
-        justify-content: center;
-        
+        background-color:rgb(171, 163, 163) ;        
 }
 
-.footer-left{
-        width: 90%;
-        padding: 20px;
+
+.footer, .footer-left, .footer-right
+{
+        display: flex;
+        justify-content: space-between;
+       
       
 }
 
-.footer-right{
-        padding: 20px;
+.footer a {
+        margin: 20px;      
 }
