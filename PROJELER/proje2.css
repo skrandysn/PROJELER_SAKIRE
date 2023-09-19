@@ -3,7 +3,11 @@
    padding: 0;
    box-sizing: border-box;
 }
-  /*****!  HEADER *****/
+
+
+
+
+/*****!  HEADER *****/
 header {
    background-color: #E1F8E7;
    display: flex;
@@ -17,7 +21,7 @@ header {
    flex: 10%;
 }
 
-.banner img{
+.banner img {
    border-radius: 50%;
 }
 
@@ -42,76 +46,109 @@ a {
    font-size: 16px;
 }
 
- ul{
+ul {
    display: flex;
    list-style-type: none;
    gap: 3rem;
- }
+}
 
- /****?   MAİN  *****/
+/****?   MAİN  *****/
 
- main{
+main {
    display: flex;
-   justify-content:center;
-   align-items:center;
+   justify-content: center;
+   align-items: center;
    padding: 30px;
-  
- }
- .div-img{
+
+}
+
+.div-img {
    background-color: #FFFFFF;
    padding: 20px;
    border: 10px solid #E1F8E7;
    border-radius: 10px;
-   vertical-align: middle;
- }
 
- aside{
+}
+
+aside {
    display: flex;
-   justify-content:center;
-   align-items:center;
-  
- }
- aside div{
-   background-color:#F1F1F1;
+   justify-content: center;
+   align-items: center;
+
+}
+
+aside div {
+   background-color: #F1F1F1;
    text-align: center;
    margin: 50px;
    padding: 50px;
    border: 10px solid grey;
    border-radius: 20px;
-  
- }
 
-.img1{
+}
+
+.img1 {
    margin-top: 10px;
 }
 
- aside div p{
-   text-align:left;
-   font-family:'Times New Roman', Times, serif;
+aside div p {
+   text-align: left;
+   font-family: 'Times New Roman', Times, serif;
    font-size: 16px;
    margin-top: 10px;
    margin-bottom: 10px;
- }
-
-
- h2{
-   margin-top: 10px;
- text-align: center;
- }
-
-section{
-   display: flex;
-   justify-content:center;
-   align-items:center;
 }
 
- section div{
+
+h2 {
+   margin-top: 10px;
+   text-align: center;
+}
+
+/******?    SECTİON  ********/
+section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+section div {
    margin: 30px;
    /* padding: 5px; */
    text-align: center;
    border-radius: 20px;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h3{
+
+h3 {
    margin: 10px;
-} 
+}
+
+/******   FOOTER   ******/
+
+footer {
+   background-color: #808080;
+   /* display: flex; */
+   /* justify-content: space-between; */
+   padding: 30px;
+   color: rgb(41, 36, 36);
+   gap: 5rem;
+}
+
+.fot-div1 {}
+
+.fot-div2 {
+   display: flex;
+   justify-content: center;
+
+}
+
+footer a {
+   text-decoration: none;
+   font-size: 16px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(44, 40, 40);
+
+}
+
+.fot-img {}
