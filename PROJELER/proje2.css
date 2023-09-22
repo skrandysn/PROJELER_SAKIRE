@@ -135,7 +135,7 @@ footer {
    gap: 5rem;
 }
 
-.fot-div1 {}
+
 
 .fot-div2 {
    display: flex;
@@ -151,4 +151,14 @@ footer a {
 
 }
 
-.fot-img {}
+.altraf2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fot-img {
+   margin-top: 20px;
+   border: 5px solid rgb(57, 54, 54);
+   border-radius: 10px;
+}

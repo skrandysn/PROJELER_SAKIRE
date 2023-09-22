@@ -1,0 +1,32 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container{
+   display: grid;
+   /*grid seviyesinde yatay hizalama*/
+   justify-content: center;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows:300px 4rem 400px;
+}
+
+.content{
+   background-color:greenyellow;
+   border: 1px solid red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content7{
+   overflow:auto
+}
+
+.content9{
+   background-image: url(https://cdn.pixabay.com/photo/2016/11/30/14/08/cafe-1872888_640.jpg);
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}

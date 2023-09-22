@@ -1,0 +1,53 @@
+/*containere
+ içeriğine (content)
+her bir aytıma müdehale ettik (c1-c2)*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   display: grid;
+   height: 100vh;
+   /* grid-template-columns:1fr 1fr 1fr 1fr ; */
+   grid-template-columns: repeat(4,1fr) ;
+   grid-template-rows: repeat(4,1fr);
+   gap: 0.5rem 1rem;
+}
+.content{
+   background-color: beige;
+   border: 2px solid black;
+   /*bu 3 lü içindeki kontentlere müdehale etti*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content6{
+   /* self ile aytımın kendisine müdehale*/
+   justify-self: flex-end;
+}
+
+.content10{
+   align-self: center;
+   height: 4rem;
+}
+
+.content1{
+   grid-column: 1/3;
+   background-color: coral;
+}
+
+.content4{
+   grid-row: 2/4;
+   background-color: lightgreen;
+}
+
+.content8{
+   width: 100%;
+   height: 100%;
+   /*object-fit: cover; CSS özelliği, bir resmin boyutunu ve oranını korurken, bir elemanın içine tam olarak sığmasını sağlar. Bu özellik, bir resmi bir kutucuğa doldurmak ve aynı zamanda resmin oranını korumak istediğinizde kullanılır*/
+   object-fit: cover;
+}
