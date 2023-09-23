@@ -13,11 +13,12 @@ ul{
    background-color: rgb(131, 212, 185);
    padding: 1rem;
    display: flex;
+   justify-content:center; /*yatay ortalama*/
+   align-items: center; /*dikey hizalam*/
    flex-direction: row; /* yön belirler: row:yan yana. column:altalta gelir*/
    gap: 1rem 0.5rem;        /*yatay ve dikeyde arada boşluk verir */
    flex-wrap: wrap;    /*sıkıştırıp alt satıra atar.*/
-   justify-content:flex-start; /*yatay ortalama*/
-   align-items: center ; /*dikey hizalam*/
+   
 
 
    /*align-content: space-between; çok satırlı verilerin dikeyde hizalanması için kullanılır.*/
@@ -30,6 +31,7 @@ ul{
 ul li{
    background-color: blueviolet;
    width: 6rem;
+  
 }
 
 /*****!FLEX-GROW, FLEX-BASIS****/

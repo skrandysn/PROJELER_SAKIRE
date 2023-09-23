@@ -1,0 +1,92 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background-image: url(https://media.istockphoto.com/id/1475720137/tr/foto%C4%9Fraf/beach-sand-background-for-summer-vacation-concept-beach-nature-and-summer-seawater-with.webp?b=1&s=612x612&w=0&k=20&c=99whGy8JwxtXFGNWFHB2EGKOQViNtrq--td62PUEOOQ=);
+   padding: 4rem;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav a {
+   text-decoration: none;
+   color: rgb(65, 63, 63);
+}
+
+.left {
+   display: flex;
+   justify-content: space-between;
+   gap: 1.5rem;
+   padding: 1rem;
+   text-decoration: none;
+   background-color: #d4e1f7;
+   border-radius: 20px;
+}
+
+.center img {
+
+   width: 150px;
+   border-radius: 20px;
+}
+
+.right {
+   display: flex;
+   justify-content: space-between;
+   gap: 1.5rem;
+   padding: 1rem;
+   text-decoration: none;
+   background-color: #d4e1f7;
+   border-radius: 20px;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: #db5353; */
+   border-radius: 10px;
+   margin: 40px;
+   padding: 30px;
+
+}
+
+main .sec {
+   padding: 20px;
+   margin: 20px;
+   background-color: #d4e1f7;
+   border-radius: 20px;
+   text-align: center;
+}
+
+footer {
+   background-color: rgb(230, 224, 224);
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.left-sec {
+   display: flex;
+   justify-content:left ;
+   align-items: center;
+   text-align: justify;
+   margin: 10px;
+   padding: 10px;
+}
+
+.right-sec{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   text-align: justify;
+   margin: 10px;
+   padding: 10px;
+}
