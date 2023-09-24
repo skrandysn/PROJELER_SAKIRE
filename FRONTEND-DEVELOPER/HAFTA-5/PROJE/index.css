@@ -1,315 +1,338 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /**********    HOME   *********/
 .nav1 {
-   background-color: darkslategray;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color: white;
-   height: 70px;
-   border-bottom: 9px solid crimson;
-   padding: 1rem;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 70px;
+  border-bottom: 9px solid crimson;
+  padding: 1rem;
 
 }
 
-.secl h2 {
-   font-size: 30px;
-   font-weight: 900;
+.nav1 .secl h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .secr a {
-   color: white;
-   text-decoration: none;
-   padding: 0.5rem;
-   font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 20px;
 }
 
 .nav2 {
-   background-image: url(./img/showcase.jpg);
-   height: 400px;
-   background-position: center;
-   /* display: flex;
+  background-image: url(./img/showcase.jpg);
+  height: 400px;
+  background-position: center;
+  /* display: flex;
    justify-content: center;
    align-items: center; */
-   text-align: center;
-   padding: 150px 0;
-   color: white;
+  text-align: center;
+  padding: 150px 0;
+  color: white;
 
 }
 
 .nav2 h1 {
-   margin-bottom: 30px;
-   font-size: 50px;
-   letter-spacing: 7px;
-   font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 50px;
+  letter-spacing: 7px;
+  font-weight: 900;
 
 }
 
 .nav2 p {
-   font-size: 20px;
-   font-weight: 800;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .nav3 {
-   background-color: darkslategray;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color: white;
-   height: 70px;
-   padding: 1rem;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 70px;
+  padding: 1rem;
 }
 
 .downr button {
-   background-color: red;
-   color: white;
-   width: 130px;
-   height: 40px;
-   border-radius: 5px;
+  background-color: red;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 .downr input {
-   width: 200px;
-   height: 40px;
-   border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
 }
 
-main{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px;
-   gap: 20px;
-   
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+
 }
 
-.main{
- text-align: center;
+.main {
+  text-align: center;
 }
 
-.main img{
-   width: 100px;
+.main img {
+  width: 100px;
 }
 
-footer{
-   background-color: rgb(47, 79, 79, 0.7) ;
-   text-align: center;
-   color: white;
-   font-size: 20px;
-   height: 150px;
-   padding: 20px;
+footer {
+  background-color: rgb(47, 79, 79, 0.7);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  height: 150px;
+  padding: 20px;
+}
+
+.secr a {
+  display: inline-block;
+  /* Bu özellik linklere blok seviyesi davranış kazandırır */
+  text-decoration: none;
+  /* Link altı çizgisi kaldırılır */
+  margin: 10px;
+  /* Linkler arasında boşluk eklenir */
+  padding: 10px 20px;
+  /* Linklerin iç içe olduğu daha büyük bir alan eklenir */
+  transition: transform 3s;
+  /* Dönme animasyonu için geçiş efekti eklenir */
+}
+
+.secr a.a1:hover {
+  transform: rotateX(360deg);
+}
+
+.secr a.a2:hover {
+  transform: rotateY(360deg);
+}
+
+.secr a.a3:hover {
+  transform: rotateZ(360deg);
+  /* 3600 değeri yerine 360 kullanın */
 }
 
 
 
+.nav h1:hover {
+  animation-name: example11;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
 
+@keyframes example11 {
+  0% {
+    transform: scale(1);
+  }
 
-   .nav h1:hover {
-      animation-name: example11;
-      animation-duration: 6s;
-      animation-iteration-count: 1;
-    }
-    
-    @keyframes example11 {
-      0% {
-        transform: scale(1);
-      }
-    
-      12.5% {
-        transform: scale(0.5);
-      }
-    
-      25% {
-        transform: scale(2);
-      }
-    
-      75% {
-        transform: scale(1);
-      }
-    }
+  12.5% {
+    transform: scale(0.5);
+  }
+
+  25% {
+    transform: scale(2);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+}
 
 
 .main h3:hover {
-   animation-name: example2;
-   animation-duration: 2s;
-   animation-iteration-count: 2;
- }
- 
- @keyframes example2 {
-   0% {
-     color: red;
-   }
- 
-   25% {
-     color: yellow;
-   }
- 
-   50% {
-     color: blue;
-   }
- 
-   75% {
-     color: green;
-   }
- 
-   100% {
-     color: red;
-   }
- }
- 
- .downr button:hover {
-   animation-name: example;
-   animation-duration: 2s;
-   animation-iteration-count: 1;
- }
- 
- @keyframes example {
-   0% {
-     transform: scale(2);
-   }
- 
-   12.5% {
-     transform: scale(1);
-   }
- 
-   25% {
-     transform: scale(2);
-   }
- 
-   37.5% {
-     transform: scale(1);
-   }
- 
-   50% {
-     transform: scale(2);
-   }
- 
-   75% {
-     transform: scale(1);
-   }
- 
-   100% {
-     transform: scale(2);
-   }
- }
- 
- 
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes example2 {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  75% {
+    color: green;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.downr button:hover {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+  0% {
+    transform: scale(2);
+  }
+
+  12.5% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(2);
+  }
+
+  37.5% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+
+
 /* Hover durumundayken animasyonu uygula */
 .main img:hover {
-   animation: hoverEffect 1s ease-in-out forwards;
-   /* 
+  animation: hoverEffect 1s ease-in-out forwards;
+  /* 
    forwards: Animasyon sona erdiğinde son durumu korur
    0.5s: Animasyon süresi (ayarlayabilirsiniz)
    ease-in-out: Animasyon hız eğrisi
    */
- }
- 
- @keyframes hoverEffect {
-   0% {
-     transform: scale(1);
-     /* Normal boyut */
-   }
- 
-   25% {
-     transform: scale(2) translateX(-30px);
-     /* Yukarı büyüme ve sola kayma */
-   }
- 
-   50% {
-     transform: scale(2) translateY(30px);
-     /* Aşağı büyüme ve sağa kayma */
-   }
- 
-   75% {
-     transform: scale(2) translateX(30px);
-     /* Sağa büyüme ve sola kayma */
-   }
- 
-   100% {
-     transform: scale(2) translateY(-30px);
-     /* Normal boyuta dönme */
-   }
- }
- 
- /*********  ABOUT  *********/
+}
 
- main{
+@keyframes hoverEffect {
+  0% {
+    transform: scale(1);
+    /* Normal boyut */
+  }
+
+  25% {
+    transform: scale(2) translateX(-30px);
+    /* Yukarı büyüme ve sola kayma */
+  }
+
+  50% {
+    transform: scale(2) translateY(30px);
+    /* Aşağı büyüme ve sağa kayma */
+  }
+
+  75% {
+    transform: scale(2) translateX(30px);
+    /* Sağa büyüme ve sola kayma */
+  }
+
+  100% {
+    transform: scale(2) translateY(-30px);
+    /* Normal boyuta dönme */
+  }
+}
+
+/*********  ABOUT  *********/
+
+main {
   font-size: 16px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
   text-align: justify;
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 5rem;
- }
- 
- #sec-p{
-  background-color:#2F4F4F ;
+}
+
+#sec-p {
+  background-color: #2F4F4F;
   color: white;
   padding: 15px;
   border-radius: 5px;
- }
- 
- #main-sec{
-  background-color:#2F4F4F ;
+}
+
+#main-sec {
+  background-color: #2F4F4F;
   color: white;
   padding: 15px;
-  margin: 0px ;
+  margin: 0px;
   border-radius: 5px;
 
- }
- 
- #fot2{
+}
+
+#fot2 {
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgb(47, 79, 79, 0.7) ;
+  background-color: rgb(47, 79, 79, 0.7);
   text-align: center;
   color: white;
   font-size: 20px;
   height: 150px;
   padding: 20px;
-  }
+}
 
-  
 
-  .main__sec--sol article{
-    background-color: rgb(238, 236, 236);
-    padding: 20px;
-    border-radius: 10px;
 
-  }
+.main__sec--sol article {
+  background-color: rgb(238, 236, 236);
+  padding: 20px;
+  border-radius: 10px;
 
-  .main__sec--sag{
-    background-color:#2F4F4F;
-    color: white;
-    padding: 30px;
-    
-  }
- 
-  .main__sec--sag button{
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    width: 80px;
-    padding: 5px;
-    border-radius: 10px;
-  
-    
-  }
- 
- 
- input,
- textarea {
+}
+
+.main__sec--sag {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 30px;
+
+}
+
+.main__sec--sag button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  width: 80px;
+  padding: 5px;
+  border-radius: 10px;
+
+
+}
+
+
+input,
+textarea {
   width: 400px;
- }
+}
 
- .div-but{
+.div-but {
   text-align: center;
- }
- 
- 
+}
