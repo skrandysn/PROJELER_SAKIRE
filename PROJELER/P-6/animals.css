@@ -17,4 +17,37 @@ max-height: calc(100vh - 127px);
 } 
 .carousel-item button{
   width: 150px;
+  margin-bottom: 3rem;
+}
+.carousel-indicators button{
+background-color: red !important;
+width: 3rem !important;
+margin-top: 0.1rem !important;
+padding: 0.2rem !important;
+
+}
+
+/*! card */
+.card-body h5{
+  font-weight:bold ;
+}
+
+/*! OUR DOGS */
+/**********!  ALBUM  **********/
+section#album .nav-link.active{
+background-color: yellow;
+}
+section#album .nav-link{
+  color: black;
+}
+
+/*********! FOOTER *********/
+footer i{
+color:white;
+margin-right: 0.8rem;
+font-size: 2rem;
+transition: color 1s;
+}
+footer i:hover{
+  color: red !important;
 }
