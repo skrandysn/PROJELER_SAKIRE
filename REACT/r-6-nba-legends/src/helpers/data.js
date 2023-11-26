@@ -1,7 +1,7 @@
 export const data = [
 	{
 		name: "Kareem Abdul-Jabbar",
-		img: "https://cdn.vox-cdn.com/thumbor/8yWTZWnt03DGQkU9ZVdGluZWqRM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23373244/147497571.jpg",
+		img: "https://2kdb.net/storage/players/22/kareem_abdul-jabbar_8005.jpg",
 		statistics: [
 			"38,387 points",
 			"17,440 rebaunds",
@@ -11,7 +11,7 @@ export const data = [
 	},
 	{
 		name: "Larry Bird",
-		img: "https://cdn.vox-cdn.com/thumbor/8yWTZWnt03DGQkU9ZVdGluZWqRM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23373244/147497571.jpg",
+		img: "https://www.tcdb.com/Images/Large/Basketball/2090/2090-665339RepFr.jpg",
 		statistics: [
 			"21,791 points",
 			"8,974 rebaunds",
