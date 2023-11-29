@@ -17,6 +17,10 @@ const Form = () => {
     email:${email},
     password:${password}
     `)
+    setUsername("")
+    setEmail("")
+    setPassword("")
+
   };
   return (
     <form onSubmit={handleSubmit}>
@@ -30,6 +34,7 @@ const Form = () => {
           type="text"
           className="form-control"
           id="username"
+          value={username}
         />
       </div>
       <div className="mb-3">
@@ -41,6 +46,7 @@ const Form = () => {
           type="email"
           className="form-control"
           id="email"
+          value={email}
         />
       </div>
       <div className="mb-3">
@@ -52,6 +58,7 @@ const Form = () => {
           type="password"
           className="form-control"
           id="password"
+          value={password}
         />
       </div>
 
