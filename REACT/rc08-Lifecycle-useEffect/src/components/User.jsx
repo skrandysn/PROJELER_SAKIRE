@@ -7,7 +7,7 @@ const User = () => {
     fetch("https://randomuser.me/api/")
       .then((res) => res.json())
       .then((data) => setUser(data.results[0]))
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err)); //* hatayı (error) yakalar 
   };
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const User = () => {
   return (
     <div>
       <h1>
-        {user?.name?.first} {user?.name?.last}
+        {user?.name?.first} {user?.name?.last} //* ? varsa bunu yap demek (user varsa name al)
       </h1>
       <img className="rounded-circle" src={user?.picture?.large} alt="random" />
       <h4>{user?.email}</h4>
