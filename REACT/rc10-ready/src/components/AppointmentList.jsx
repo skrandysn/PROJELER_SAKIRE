@@ -19,7 +19,7 @@ const AppointmentList = ({setAppointments, appointments}) => {
     <Container>
       <h3 className='display-6 mb-2' style={{color:"rgb(166, 18, 189)"}}>Apointment List</h3>
       <div type="button" className='d-flex flex-column align-items-center'>
-        {!appointments.lenght && (<img src="./img/appointment.jpg" alt="" />)}
+        {!appointments.lenght && (<img src="./img/appointment.jpg" alt="" width={500} />)}
 
     {appointments.map ((item)=>{
       const{id, patient,day ,consulted,  doctor}=item;
