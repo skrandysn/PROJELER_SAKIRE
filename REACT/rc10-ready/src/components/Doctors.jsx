@@ -5,7 +5,7 @@ import  {useState} from "react";
 
 
 
-const Doctors = ({doctors}) => {
+const Doctors = ({doctors, appointments, setAppointments }) => {
   const [show, setShow] = useState(false);
   const [selectedDrName, setselectedDrName] = useState()
 
@@ -21,13 +21,18 @@ const Doctors = ({doctors}) => {
       {doctors.map((dr)=>(
         <Col key={dr.id} xs={6} sm={4} md={3}>
         <img className="img-thumbnail doctor-img" src={dr.img} alt="{dr.name}" 
-        onClick={handleClick}/>
+        onClick={()=>handleClick(dr.name)}/>
         <h5>{dr.name}</h5>
         <h6>{dr.dep}</h6>
         </Col>
       ))}
       </Row>
-      <AddModal drName={selectedDrName} show={show} handleClose={() => setShow(false)}/>
+      <AddModal 
+      appointments={appointments} 
+      setAppointments={ setAppointments}
+      drName={selectedDrName} 
+      show={show} 
+      handleClose={() => setShow(false)}/>
     </Container>
   );
 };
