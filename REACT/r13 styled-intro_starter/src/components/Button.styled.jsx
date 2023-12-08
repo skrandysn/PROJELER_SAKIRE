@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
 /* background-color:hotpink;
 color: white; */
-background-color:${(props)=> (props.x ? "white" : "blue")};
+background-color:${(props)=> (props.primary ? "white" : "hotpink")};
 color:${({primary}) => (primary ? "hotpink" : "white")};
 width: 8 rem;
 padding: 1rem 2rem;

@@ -8,9 +8,9 @@ const App = () => {
     <>
     <Sarmal bg="#bebe">
       <HeaderText bgRenk="#149ECA" renk="red">Styled Components</HeaderText>
-      <Button>Yasin</Button>
-      <Button primary>Solmaz</Button>
-      <F1Button>Calis</F1Button>
+      <Button>Send</Button>
+      <Button primary>Send</Button>
+      <F1Button react>Calis</F1Button>
       <F1Button>Daha Cok Calis</F1Button>
     </Sarmal>
     <Sarmal bg="#149ECA">

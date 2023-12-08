@@ -10,7 +10,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   cursor:pointer;
 }
 
-${({small})=> (small && css`
+${({small})=> (small && css` // css ile extra sitilize ettik
 background-color: black;
 color: #61dbfb;
 padding: 0.7rem;
