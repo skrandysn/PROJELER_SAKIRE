@@ -12,11 +12,8 @@ button.addEventListener('click', function () {
 })
 
 function output(fruits){
-  const arr = fruits.split(' ');
-  arr.forEach(fruit => {
-      console.log(fruit)
-  });
+    const arr = fruits.split(' ');
+    arr.forEach(fruit => {
+        console.log(fruit)
+    });
 }
-
-output("Orange Apple Grape");
-output("")
