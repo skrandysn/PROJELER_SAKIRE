@@ -12,9 +12,11 @@ export const tokenSlice = createSlice({
   reducers: {
     setToken: (state, action: PayloadAction<string>) => {
       console.log(action.payload);
+      state.token = action.payload
+      localStorage.setItem('token', state.token)
     }
   }
 })
 
 export default tokenSlice.reducer
-export const {}= tokenSlice.actions
+export const {setToken}= tokenSlice.actions
